@@ -3,7 +3,7 @@ from enum import Enum
 from datetime import timedelta
 
 # Core Django imports
-from django.db import models
+from django.db import models 
 from django.urls import reverse
 
 # Third-party app imports
@@ -40,19 +40,26 @@ class Gender(Enum):
 
 
 class Race(models.Model):
+    RACE_TYPES = (
+        ('SP', 'Sprint Classic'),
+        ('CL', 'Classic'),
+        ('PS', 'Parallel Sprint'),
+        ('GS', 'Giant Slalom')
+    )
+
+    race_type = models.CharField(
+        max_length=2,
+        default='SP',
+        choices=RACE_TYPES
+    )
     race_name = models.CharField(max_length=200)
     race_date = models.DateField(verbose_name='Race Date')
     location = models.CharField(max_length=200)
     homoligation = models.CharField(max_length=200, default=0)
     officials = models.CharField(max_length=200, null=True)
 
-    @property
     def __str__(self):
         return self.race_name
-
-    @property
-    def get_absolute_url(self):
-        return reverse('race_detail', args=[str(self.id)])
 
 
 class Racer(models.Model):
@@ -67,14 +74,9 @@ class Racer(models.Model):
             (tag.name, tag.value) for tag in Gender
         ),
     )
-
-    @property
+    
     def __str__(self):
         return f'{self.last_name}, {self.first_name}'
-
-    @property
-    def get_absolute_url(self):
-        return reverse('athlete_detail', args=[str(self.id)])
 
 
 class RacerResult(models.Model):
@@ -84,6 +86,12 @@ class RacerResult(models.Model):
         ('DSQ', 'Disqualified'),
         ('DNS', 'Did Not Start')
     )
+    JUMP_PENALTIES = [
+        (timedelta(seconds=0.00), '0'),
+        (timedelta(seconds=1.00), '1'),
+        (timedelta(seconds=3.00), '3'),
+        (timedelta(seconds=4.00), '4')
+    ]
 
     racer = models.ForeignKey(
         Racer,
@@ -101,8 +109,30 @@ class RacerResult(models.Model):
         choices=FINISH_TYPES
     )
 
-    race_time = models.DurationField(
+    run_one_time = models.DurationField(
         default=timedelta(minutes=40)
+    )
+
+    run_one_gate_penalties = models.DurationField(
+        default=timedelta(seconds=0)
+    )
+    
+    run_one_jump_penalties = models.DurationField(
+        choices=JUMP_PENALTIES,
+        default=timedelta(seconds=0)
+    )
+    
+    run_two_time = models.DurationField(
+        default=timedelta(minutes=40)
+    )
+    
+    run_two_gate_penalties = models.DurationField(
+        default=timedelta(seconds=0)
+    )
+
+    run_two_jump_penalties = models.DurationField(
+        choices=JUMP_PENALTIES,
+        default=timedelta(seconds=0)
     )
 
     class Meta:
@@ -110,6 +140,17 @@ class RacerResult(models.Model):
         models.UniqueConstraint(fields=['racer', 'race'], name='unique_race_result')
     ]
 
-    @property
+    total_time = models.DurationField(
+        default=timedelta(seconds=0)
+    )
+    
+    def calculate_total_time (self):
+        total_time = self.run_one_time + self.run_one_gate_penalties + self.run_one_jump_penalties + self.run_two_time + self.run_two_gate_penalties + self.run_two_jump_penalties
+        return total_time
+    
+    def save(self, *args, **kwargs):
+        self.total_time = self.calculate_total_time()
+        super().save(*args, **kwargs)
+    
     def __str__(self):
         return f'{self.racer.first_name}, {self.race.race_name}'

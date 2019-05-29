@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ustsa_race_manager.apps.UstsaRaceManagerConfig',
+    'import_export'
 ]
 
 MIDDLEWARE = [

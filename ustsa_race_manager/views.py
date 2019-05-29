@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
+from django.db.models import Sum
 
 from .models import Race, Racer, RacerResult
 
@@ -10,9 +11,7 @@ def index(request):
 
     num_races = Race.objects.all().count()
     num_racers = Racer.objects.all().count()
-
-
-    recent_races = Race.objects.order_by('race_date')[:5]
+    recent_races = Race.objects.order_by('race_date')
 
     context = {
         'recent_races': recent_races,
@@ -26,11 +25,11 @@ def race_detail(request, race_id):
     race = get_object_or_404(Race, pk=race_id)
     print(str(race.officials))
 
-    race_results = RacerResult.objects.filter(race=race_id)
+    race_results = RacerResult.objects.filter(race=race_id).order_by('total_time')
 
-    for e in race_results:
-        print(str(e.race))
-    #race_results = get_object_or_404(RacerResult, fk=race_id)
+    #for e in race_results:
+    #    print(str(e.total_time))
+
     return render(request, 'ustsa_race_manager/race_detail.html', {'race': race, 'race_results': race_results})
 
 

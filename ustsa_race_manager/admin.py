@@ -26,9 +26,10 @@ class RacerAdmin(admin.ModelAdmin):
     ]
     inlines = [RaceResultInline]
 
-
+class RaceAdmin(admin.ModelAdmin):
+    inlines = [RaceResultInline]
 
 admin.site.register(Racer, RacerAdmin)
-admin.site.register(Race)
+admin.site.register(Race, RaceAdmin)
 admin.site.register(RacerResult)
 

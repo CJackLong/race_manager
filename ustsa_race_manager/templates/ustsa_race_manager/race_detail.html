@@ -26,8 +26,13 @@
                         <tr>
                             <th>Athlete</th>
                             <th>USTSA number</th>
-                            <th>Finish Type</th>
-                            <th>Time</th>
+                            <th>Run 1</th>
+                            <th>Gate Penalties</th>
+                            <th>Jump Penalties</th>
+                            <th>Run 2</th>
+                            <th>Gate Penalties</th>
+                            <th>Jump Penalties</th>
+                            <th>Total Time</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -36,8 +41,23 @@
                         <tr>
                             <td>{{ result.racer.first_name }} {{ result.racer.last_name }}</td>
                             <td>{{ result.racer.ustsa_num }}</td>
-                            <td>{{ result.finish_type }}</td>
-                            <td>{{ result.race_time }}</td>
+                            {% if result.finish_type == 'CLR' %}
+                            <td>{{ result.run_one_time }}</td>
+                            <td>{{ result.run_one_gate_penalties }}</td>
+                            <td>{{ result.run_one_jump_penalties }}</td>
+                            <td>{{ result.run_two_time }}</td>
+                            <td>{{ result.run_two_gate_penalties }}</td>
+	                        <td>{{ result.run_two_jump_penalties }}</td>
+	                        <td>{{ result.total_time }}</td>
+	                        {% else %}
+	                            <td></td>
+	                            <td></td>
+	                            <td></td>
+	                            <td></td>
+	                            <td></td>
+	                            <td></td>
+	                            <td>{{ result.finish_type }}</td>
+                            {% endif %}
                         </tr>
                     {% endfor %}
 
