@@ -1,0 +1,21 @@
+{% extends "ustsa_race_manager\base_generic.html" %}
+{% block content  %}
+
+    {% load staticfiles %}
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'ustsa_race_manager/style.css' %}"/>
+    {% if recent_races %}
+        The recent USTSA Races are:
+        {% for race in recent_races %}
+            <ul>
+                <li><a href="{% url 'race_detail' race.id %}">{{ race }}</a></li>
+            </ul>
+        {% endfor %}
+
+    {% else %}
+        <p>No races are available.</p>
+    {% endif %}
+
+    <p> Racers: {{ num_racers }} </p>
+    <p> Races: {{ num_races }} </p>
+{% endblock %}

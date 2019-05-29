@@ -1,0 +1,29 @@
+{% extends "ustsa_race_manager\base_generic.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    {% if all_athletes %}
+        <div class="col-md-12 justify-content-center" xmlns:width="http://www.w3.org/1999/xhtml">
+
+                <h2>USTSA Athletes</h2>
+
+            <div class="card-deck">
+                {% for racer in all_athletes %}
+                <div class="card" style= width:400px">
+                    <img class="card-img-top" src="{% static "ustsa_race_manager/athlete_photos/img_avatar1.png" %}"
+                     alt="{% static "ustsa_race_manager/athlete_photos/img_avatar1.png" %}" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ racer.first_name }} {{ racer.last_name }}</h4>
+                        <p class="card-text">{{ racer.ustsa_num }}</p>
+                        <a href="{% url 'athlete_detail' racer.id %}" class="btn btn-primary">See Results</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+
+        </div>
+    {% else %}
+        <p>No races are available.</p>
+    {% endif %}
+{% endblock %}

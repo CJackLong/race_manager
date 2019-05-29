@@ -1,0 +1,52 @@
+{% extends "ustsa_race_manager\base_generic.html" %}
+{% load staticfiles %}
+
+{% block content %}
+    {% if race %}
+        <div class="col-md-12 justify-content-center">
+            <div class="row justify-content-center ">
+                <div class="col">
+                    <p>Location: {{ race.location }}</p>
+                    <p>Race Date: {{ race.race_date }}</p>
+                </div>
+                <div class="col">
+                    <p>Race Official: {{ race.officials }}</p>
+                    <p>Race Date: {{ race.homoligation }}</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-12">
+            {% if race_results %}
+                <h2>Race Results</h2>
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Athlete</th>
+                            <th>USTSA number</th>
+                            <th>Finish Type</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    {% for result in race_results %}
+                        <tr>
+                            <td>{{ result.racer.first_name }} {{ result.racer.last_name }}</td>
+                            <td>{{ result.racer.ustsa_num }}</td>
+                            <td>{{ result.finish_type }}</td>
+                            <td>{{ result.race_time }}</td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+            {% endif %}
+
+        </div>
+    {% else %}
+        <p>No results are available.</p>
+    {% endif %}
+{% endblock %}

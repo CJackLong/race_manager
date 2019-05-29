@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block title %}<title>US Telemark Ski Association</title>{% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+
+
+    <!-- Add additional CSS in static file -->
+    {% load static %}
+    <script src="{% static 'jquery.min.js' %}"></script>
+    <script src="{% static 'popper.min.js' %}"></script>
+    <script src="{% static 'bootstrap.min.js' %}"></script>
+    <link rel=" stylesheet" href="{% static 'ustsa_race_manager/style.css' %}">
+</head>
+<body>
+<div class="container-fluid">
+
+
+    {% block topbar %}
+        <div class="nav justify-content-center">
+
+            <div class="nav-item"><a class="nav-link" href="{% url 'index' %}"> Home </a></div>
+            <div class="nav-item"><a class="nav-link" href="{% url 'races' %}"> Races </a></div>
+            <div class="nav-item"><a class="nav-link" href="{% url 'athletes' %}">Athletes</a></div>
+
+        </div>
+
+    {% endblock %}
+    <!-- start main wrapper -->
+    <div class="container-fluid justify-content-center">
+        <div class="row">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div><!-- start main-content -->
+</div>
+
+</body>
+</html>
