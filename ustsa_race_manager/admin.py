@@ -1,5 +1,6 @@
 from django.contrib import admin
-
+from import_export import resources
+from import_export.admin import ImportExportModelAdmin
 # Register your models here.
 from .models import Racer, Race, RacerResult
 
@@ -26,7 +27,14 @@ class RacerAdmin(admin.ModelAdmin):
     ]
     inlines = [RaceResultInline]
 
-class RaceAdmin(admin.ModelAdmin):
+class RaceResource(resources.ModelResource):
+
+    class Meta:
+        model = Race
+
+
+class RaceAdmin(ImportExportModelAdmin):
+    resource_class = RaceResource
     inlines = [RaceResultInline]
 
 admin.site.register(Racer, RacerAdmin)
