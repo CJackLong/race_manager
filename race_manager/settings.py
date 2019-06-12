@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ustsa_race_manager.apps.UstsaRaceManagerConfig',
+    'ustsa_race_manager.templatetags',
     'import_export'
 ]
 
@@ -78,8 +79,12 @@ WSGI_APPLICATION = 'race_manager.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'ustsa_events'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ustsa_mgmt',
+        'USER': 'CLONG',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 

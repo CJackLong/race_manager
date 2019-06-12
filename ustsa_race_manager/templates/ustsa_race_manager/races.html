@@ -1,35 +1,40 @@
-{% extends "ustsa_race_manager\base_generic.html" %}
+{% extends "base_generic.html" %}
 {% load staticfiles %}
 
 {% block content %}
-    {% if past_races %}
-        <div class="col-md-12 justify-content-center">
+	<div class="container justify-content-center">
+		<div class="row">
+			{% if past_races %}
+				<div class="col-md-12 justify-content-center">
 
-                <h2>Races</h2>
+					<h2>Races</h2>
 
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th>Race</th>
-                            <th>Location</th>
-                            <th>Date</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+					<table class="table table-striped">
+						<thead>
+						<tr>
+							<th>Race</th>
+							<th>Location</th>
+							<th>Date</th>
+						</tr>
+						</thead>
+						<tbody>
 
-                    {% for race in past_races %}
-                        <tr>
-                            <td><a class="nav-link" href="{% url 'race_detail' race.id %}"> {{ race.race_name }}</a></td>
-                            <td>{{ race.location }}</td>
-                            <td>{{ race.race_date }}</td>
-                        </tr>
-                    {% endfor %}
+						{% for race in past_races %}
+							<tr>
+								<td><a class="nav-link" href="{% url 'race_detail' race.race_name %}"> {{ race.race_name }}</a>
+								</td>
+								<td>{{ race.location }}</td>
+								<td>{{ race.race_date }}</td>
+							</tr>
+						{% endfor %}
 
-                    </tbody>
-                </table>
+						</tbody>
+					</table>
 
-        </div>
-    {% else %}
-        <p>No races are available.</p>
-    {% endif %}
+				</div>
+			{% else %}
+				<p>No races are available.</p>
+			{% endif %}
+		</div>
+	</div>
 {% endblock %}
