@@ -12,4 +12,7 @@ urlpatterns = [
 
     path('athlete_detail/<ustsa_num>/', views.athlete_detail, name='athlete_detail'),
 
+    path('points',views.points,name='points'),
+
+    path('points/<list_id>',views.points_list,name='points_list')
 ]

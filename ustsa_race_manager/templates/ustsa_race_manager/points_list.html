@@ -1,0 +1,67 @@
+{% extends "base_generic.html" %}
+{% load staticfiles %}
+
+{% block content %}
+	<div class="container justify-content-center">
+		<div class="row">
+			<div class="col-md-12 justify-content-center" xmlns:width="http://www.w3.org/1999/xhtml">
+				{% if points_list %}
+					<h2>{{ points_list.list_name }}</h2>
+					<table class="table">
+						<tbody>
+						<tr>
+							<td>Season:</td>
+							<td>{{ points_list.season_code }}</td>
+							<td>Number:</td>
+							<td>{{ points_list.season_list_number }}</td>
+						</tr>
+						<tr>
+							<td>Races from:</td>
+							<td>{{ points_list.start_race_date }}</td>
+							<td>Races to:</td>
+							<td>{{ points_list.end_race_date }}</td>
+						</tr>
+						</tbody>
+					</table>
+					{% if list_contents %}
+						<table class="table table-striped">
+							<thead>
+							<tr>
+								<th>Racer</th>
+								<th>Race Type</th>
+								<th>USTSA Points</th>
+								<th>Position</th>
+							</tr>
+							</thead>
+							<tbody>
+
+							{% for points in list_contents %}
+								<tr>
+									<td>
+										<a href="{% url 'athlete_detail' points.racer.ustsa_num %}">
+											{{ points.racer.first_name }} {{ points.racer.last_name }}
+										</a>
+									</td>
+									<td>{{ points.race_type }}</td>
+									<td>{{ points.ustsa_points }}</td>
+									<td>{{ points.position }}</td>
+								</tr>
+							{% endfor %}
+
+							</tbody>
+						</table>
+
+					{% else %}
+						<p>No contents of points list are available.</p>
+					{% endif %}
+
+					</div>
+				{% else %}
+					<p>No list is available.</p>
+				{% endif %}
+		</div>
+	</div>
+
+
+
+{% endblock %}
