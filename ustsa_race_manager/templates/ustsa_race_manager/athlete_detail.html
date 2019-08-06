@@ -1,5 +1,6 @@
 {% extends "base_generic.html" %}
 {% load staticfiles %}
+{% load filters %}
 
 {% block content %}
 	<div class="container justify-content-center">
@@ -48,13 +49,17 @@
 										<tr>
 											<td>{{ result.race.race_date }}</td>
 											<td>{{ result.race.location }}</td>
-											<td>{{ result.race.race_name }}</td>
+											<td>
+												<a href="{% url 'race_detail' result.race.race_name %}">
+													{{ result.race.race_name }}
+												</a>
+											</td>
 											{% if result.finish_type == "CLR" %}
-												<td>{{ result.race_time }}</td>
+												<td>{{ result.total_time|run }}</td>
 											{% else %}
 												<td> {{ result.finish_type }}</td>
 											{% endif %}
-											<td>{{ result.finish_time }}</td>
+
 										</tr>
 									{% endfor %}
 

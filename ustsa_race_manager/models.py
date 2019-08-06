@@ -40,6 +40,14 @@ class Gender(Enum):
             return 'L'
 
 
+RACE_TYPES = (
+    ('SP', 'Sprint Classic'),
+    ('CL', 'Classic'),
+    ('PS', 'Parallel Sprint'),
+    ('GS', 'Giant Slalom')
+)
+
+
 class RacePointsManager(models.Manager):
     def set_race_points(self, race_id):
         race = Race.objects.get(id=race_id)
@@ -47,50 +55,66 @@ class RacePointsManager(models.Manager):
         for result in race.racerresult_set.all():
             result.calculate_race_points(best_time)
 
-    def set_race_penalty(self, race_id):
-        print("set_race_penalty called")
+    def set_race_result(self, race_id):
+        race = Race.objects.get(id=race_id)
+        results = race.racerresult_set.all().order_by('race_points')
+        place = 1
+        for result in results:
+            result.calculate_race_result(race.applied_penalty, place)
+            place = place + 1
+
+    def calculate_race_penalty(self, race_id):
         class Result():
             def __init__(self, ustsa_points, race_points):
                 self.ustsa_points = ustsa_points
                 self.race_points = race_points
 
-        points = []
+        race_results_list = []
 
         race = Race.objects.get(id=race_id)
 
         race_results = race.racerresult_set.all()
 
         for result in race_results:
-            points.append(
+            race_results_list.append(
                 Result(
-                    result.racer.racerpoints_set.get(current_valid_list=True, race_type='SP').ustsa_points,
+                    result.racer.racerpoints_set.get(list_id__current_valid_list=True, race_type='SP').ustsa_points,
                     result.race_points
-               )
+                )
             )
 
         # Sort results by USTSA points to identify lowest 5 at start
-        points.sort(key=lambda x: x.ustsa_points)
-        a = sum(res.ustsa_points for res in points[:5])
+        race_results_list.sort(key=lambda x: x.ustsa_points)
+        a = sum(res.ustsa_points for res in race_results_list[:5])
 
         # Sort results by race points to find best 10
-        points.sort(key=lambda x: x.race_points)
-        del points[11:]
+        race_results_list.sort(key=lambda x: x.race_points)
+        del race_results_list[11:]
 
         # Sort best 10 results by USTSA points to find lowest 5 of top 10 finishers
-        points.sort(key=lambda x: x.ustsa_points)
-        b = sum(res.ustsa_points for res in points[:5])
+        race_results_list.sort(key=lambda x: x.ustsa_points)
+        b = sum(res.ustsa_points for res in race_results_list[:5])
 
         # Sum the race points of lowest 5 ustsa points of top 10 finishers
-        c = sum(res.race_points for res in points[:5])
+        c = sum(res.race_points for res in race_results_list[:5])
 
         # Apply the standard USATSA penalty formula
         penalty = (a + b - c) / 10
+        print("New penalty:", penalty)
 
         # Store the applied penalty on the race model
         race.set_applied_penalty(penalty)
 
-        for result in race_results:
-            result.set_race_result(penalty)
+        return penalty
+        #for result in race_results:
+        #    print(result.racer.last_name, "tried to apply the penalty")
+        #    result.set_race_result(penalty)
+
+    def update_race_results(self, race_id):
+        self.set_race_points(race_id=race_id)
+        penalty = self.calculate_race_penalty(race_id=race_id)
+        print("returned penalty:", penalty)
+        self.set_race_result(race_id=race_id)
 
 
 class RaceOfficial(models.Model):
@@ -104,10 +128,18 @@ class RaceOfficial(models.Model):
 
 
 class Racer(models.Model):
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200)
-    ustsa_num = models.CharField(max_length=200)
-    inj = models.BooleanField()
+    first_name = models.CharField(
+        max_length=200
+    )
+
+    last_name = models.CharField(
+        max_length=200
+    )
+
+    ustsa_num = models.CharField(
+        max_length=200
+    )
+
     racer_gender = models.CharField(
         max_length=6,
         default='NG',
@@ -115,6 +147,31 @@ class Racer(models.Model):
             (tag.name, tag.value) for tag in Gender
         ),
     )
+
+    inj = models.BooleanField(
+        default=False
+    )
+
+    active = models.BooleanField(
+        default=True
+    )
+
+    def save(self, *args, **kwargs):
+        racer_points = PublishedPointsList.current_list.on_current_list(self.ustsa_num)
+
+        for type, exists in racer_points:
+            if exists is not True:
+                points_list = PublishedPointsList.current_list.get_current_list()
+
+                RacerPoints.objects.create(
+                    racer=self,
+                    list_id=points_list,
+                    penalty='*',
+                    position=99,
+                    race_type=type
+                )
+
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f'{self.last_name}, {self.first_name}'
@@ -208,12 +265,20 @@ class Race(models.Model):
         self.applied_penalty = penalty
         super().save(*args, **kwargs)
 
+
+        # results = RacerResult.objects.filter(race__race_name=self.race_name)
+        # for result in results:
+        #     print("Save", result.racer.first_name,"from update_race_results")
+        #     result.save(*args, **kwargs)
+
     def __str__(self):
         return self.race_name
 
     def save(self, *args, **kwargs):
+        print(self, "The race being saved")
         self.season_code = self.race_date.year
         super().save(*args, **kwargs)
+
 
 
 class Assignments(models.Model):
@@ -323,33 +388,72 @@ class RacerResult(models.Model):
 
     race_points = models.DecimalField(
         max_digits=10,
-        decimal_places=3
+        decimal_places=3,
+        default=0
     )
 
     race_result = models.DecimalField(
         max_digits=10,
-        decimal_places=3
+        decimal_places=3,
+        default=0,
     )
 
-    def set_race_result(self, penalty, *args, **kwargs):
+    applied_penalty = models.DecimalField(
+        max_digits=10,
+        decimal_places=3,
+        default=0
+    )
+
+    def calculate_race_result(self, penalty, place, *args, **kwargs):
+        print("calculate race result called for", self.racer, "with race points of", self.race_points, "and penalty of", penalty)
+        self.applied_penalty = penalty
+        self.position = place
         self.race_result = self.race_points + penalty
-        super().save(*args, **kwargs)
+        super(RacerResult, self).save(*args, **kwargs)
 
     def calculate_race_points(self, best_time, *args, **kwargs):
+        print("calculate race points called for", self.racer, "with total time of", self.total_time)
         self.race_points = (((self.total_time / best_time) - 1) * 500)
-        super().save(*args, **kwargs)
+        print("race points for", self.racer, "with total time of", self.total_time, "were", self.race_points)
+        super(RacerResult, self).save(*args, **kwargs)
 
     def calculate_total_time(self):
         self.total_time = self.run_one_time + self.run_one_gate_penalties + self.run_one_jump_penalties + self.run_two_time + self.run_two_gate_penalties + self.run_two_jump_penalties
 
-    def save(self, *args, **kwargs):
-        if self.total_time == timedelta(seconds=0):
-            self.total_time = self.calculate_total_time()
+    def set_total_time(self, *args, **kwargs):
+        old_total_time = self.total_time
+        self.calculate_total_time()
+        if self.total_time != old_total_time:
+            super().save(*args, **kwargs)
 
+    def save(self, *args, **kwargs):
+        self.calculate_total_time()
         super().save(*args, **kwargs)
+
+        Race.race_points.update_race_results(self.race.id)
 
     def __str__(self):
         return f'{self.racer.first_name}, {self.race.race_name}'
+
+
+class PointsListManager(models.Manager):
+    def on_current_list(self, ustsa_num):
+        points_types = []
+
+        for type, desc in RACE_TYPES:
+            type_count = RacerPoints.objects.filter(list_id__current_valid_list=True) \
+                .filter(race_type=type) \
+                .filter(racer__ustsa_num=ustsa_num) \
+                .count()
+            if type_count == 0:
+                points_types.append((type, False))
+            if type_count <= 1:
+                points_types.append((type, True))
+
+        return points_types
+
+    def get_current_list(self):
+        return PublishedPointsList.objects.get(current_valid_list=True)
 
 
 class PublishedPointsList(models.Model):
@@ -371,14 +475,24 @@ class PublishedPointsList(models.Model):
 
     published = models.BooleanField()
 
+    current_valid_list = models.BooleanField(
+        default=False
+    )
+
     last_update = models.DateTimeField(
         auto_now=True
     )
 
     objects = models.Manager()
 
+    current_list = PointsListManager()
+
     def create_points_list(self):
-        RacerResult.objects.get(date__range=["2011-01-01", "2011-01-31"])
+        race_results = RacerResult.objects.filter(race__race_date__range=[self.start_race_date, self.end_race_date])
+        active_racers = Racer.objects.filter(active=True)
+
+        print("We have: ", race_results.count(), " race results")
+        print("We have: ", active_racers.count(), " active racers")
 
     def save(self, *args, **kwargs):
         self.create_points_list()
@@ -389,13 +503,6 @@ class PublishedPointsList(models.Model):
 
 
 class RacerPoints(models.Model):
-    RACE_TYPES = (
-        ('SP', 'Sprint Classic'),
-        ('CL', 'Classic'),
-        ('PS', 'Parallel Sprint'),
-        ('GS', 'Giant Slalom')
-    )
-
     PENALTY_TYPES = (
         ('+', 'Single Event Result'),
         ('*', 'No Results Since Base Season List'),
@@ -431,10 +538,6 @@ class RacerPoints(models.Model):
         max_length=2,
         default='',
         choices=PENALTY_TYPES
-    )
-
-    current_valid_list = models.BooleanField(
-        default=False
     )
 
     list_published = models.DateTimeField(

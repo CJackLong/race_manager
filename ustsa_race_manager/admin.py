@@ -66,7 +66,7 @@ class ResultsResource(resources.ModelResource):
     def after_import(self,dataset, result, using_transactions, dry_run, **kwargs):
         race = Race.objects.get(id = dataset['race'][1])
         Race.race_points.set_race_points(race.id)
-        Race.race_points.set_race_penalty(race.id)
+        Race.race_points.calculate_race_penalty(race.id)
 
 
 class RacerAdmin(ImportExportModelAdmin, admin.ModelAdmin):

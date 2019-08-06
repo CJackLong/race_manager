@@ -17,7 +17,7 @@
 						<div class="card-body">
 							<h4 class="card-title">{{ racer.first_name }} {{ racer.last_name }}</h4>
 							<p class="card-text">{{ racer.ustsa_num }}</p>
-							<a href="{% url 'athlete_detail' racer.id %}" class="btn btn-primary">See Results</a>
+							<a href="{% url 'athlete_detail' racer.ustsa_num %}" class="btn btn-primary">See Results</a>
 						</div>
 					</div>
 				{% endfor %}
