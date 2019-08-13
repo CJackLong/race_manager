@@ -61,14 +61,16 @@ def athlete_detail(request, ustsa_num):
     athlete_results = RacerResult.objects.filter(racer=athlete.id)
     return render(request, 'ustsa_race_manager/athlete_detail.html', {'athlete': athlete, 'athlete_results': athlete_results})
 
+
 def points(request):
     all_points_lists = PublishedPointsList.objects.all()
     return render(request, 'ustsa_race_manager/points.html', {'all_points_lists': all_points_lists})
 
-def points_list(request,list_id):
-    points_list = PublishedPointsList.objects.get(id=list_id)
+
+def points_list(request, list_id):
+    list = PublishedPointsList.objects.get(id=list_id)
     list_contents = RacerPoints.objects.filter(list_id=list_id)
-    return render(request, 'ustsa_race_manager/points_list.html', {'points_list': points_list, 'list_contents':list_contents})
+    return render(request, 'ustsa_race_manager/points_list.html', {'points_list': list, 'list_contents': list_contents})
 
 
 

@@ -265,12 +265,6 @@ class Race(models.Model):
         self.applied_penalty = penalty
         super().save(*args, **kwargs)
 
-
-        # results = RacerResult.objects.filter(race__race_name=self.race_name)
-        # for result in results:
-        #     print("Save", result.racer.first_name,"from update_race_results")
-        #     result.save(*args, **kwargs)
-
     def __str__(self):
         return self.race_name
 
@@ -278,7 +272,6 @@ class Race(models.Model):
         print(self, "The race being saved")
         self.season_code = self.race_date.year
         super().save(*args, **kwargs)
-
 
 
 class Assignments(models.Model):
@@ -405,7 +398,6 @@ class RacerResult(models.Model):
     )
 
     def calculate_race_result(self, penalty, place, *args, **kwargs):
-        print("calculate race result called for", self.racer, "with race points of", self.race_points, "and penalty of", penalty)
         self.applied_penalty = penalty
         self.position = place
         self.race_result = self.race_points + penalty
