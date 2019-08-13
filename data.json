@@ -1,0 +1,5585 @@
+[
+  {
+    "model": "ustsa_race_manager.raceofficial",
+    "pk": 1,
+    "fields": {
+      "first_name": "Charles",
+      "last_name": "Long",
+      "ussa_number": "6252297",
+      "fis_td_number": "0000"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.raceofficial",
+    "pk": 2,
+    "fields": {
+      "first_name": "Ken",
+      "last_name": "Gay",
+      "ussa_number": "5835301",
+      "fis_td_number": "0000"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 114,
+    "fields": {
+      "first_name": "Eric",
+      "last_name": "Lamb",
+      "ustsa_num": "114-CMT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 132,
+    "fields": {
+      "first_name": "Jeffrey",
+      "last_name": "Gay",
+      "ustsa_num": "132-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 136,
+    "fields": {
+      "first_name": "Joel",
+      "last_name": "Nylander",
+      "ustsa_num": "136-CUT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 213,
+    "fields": {
+      "first_name": "Garrett",
+      "last_name": "Long",
+      "ustsa_num": "213-CCT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 216,
+    "fields": {
+      "first_name": "Cory",
+      "last_name": "Snyder",
+      "ustsa_num": "216-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 307,
+    "fields": {
+      "first_name": "Tanner",
+      "last_name": "Visnick",
+      "ustsa_num": "307-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 308,
+    "fields": {
+      "first_name": "Scott",
+      "last_name": "McGee",
+      "ustsa_num": "308-AWY",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 314,
+    "fields": {
+      "first_name": "Tommy",
+      "last_name": "Gogolen",
+      "ustsa_num": "314-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 315,
+    "fields": {
+      "first_name": "Farli",
+      "last_name": "Boden",
+      "ustsa_num": "315-CID",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 402,
+    "fields": {
+      "first_name": "Larry",
+      "last_name": "Bosche",
+      "ustsa_num": "402-CCA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 403,
+    "fields": {
+      "first_name": "Scott",
+      "last_name": "Edgerton",
+      "ustsa_num": "403-CMT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 405,
+    "fields": {
+      "first_name": "Lyta",
+      "last_name": "Foulk",
+      "ustsa_num": "405-CCO",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 408,
+    "fields": {
+      "first_name": "William",
+      "last_name": "Dorroh",
+      "ustsa_num": "408-CID",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 415,
+    "fields": {
+      "first_name": "Jack",
+      "last_name": "Rosenthal",
+      "ustsa_num": "415-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 417,
+    "fields": {
+      "first_name": "Mark",
+      "last_name": "Haberle",
+      "ustsa_num": "417-CVT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 418,
+    "fields": {
+      "first_name": "MIke",
+      "last_name": "Foote",
+      "ustsa_num": "418-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 419,
+    "fields": {
+      "first_name": "Linda",
+      "last_name": "Pilliod",
+      "ustsa_num": "419-CNH",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 425,
+    "fields": {
+      "first_name": "Steve",
+      "last_name": "Weglarz",
+      "ustsa_num": "425-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 426,
+    "fields": {
+      "first_name": "Keith",
+      "last_name": "Rodney",
+      "ustsa_num": "426-CVT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 427,
+    "fields": {
+      "first_name": "Sarah",
+      "last_name": "Carley",
+      "ustsa_num": "427-CNH",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 429,
+    "fields": {
+      "first_name": "Devon",
+      "last_name": "Wright",
+      "ustsa_num": "429-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 432,
+    "fields": {
+      "first_name": "Sara",
+      "last_name": "Godek",
+      "ustsa_num": "432-CNH",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 433,
+    "fields": {
+      "first_name": "Nathan",
+      "last_name": "Fogell",
+      "ustsa_num": "433-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 437,
+    "fields": {
+      "first_name": "Taylor",
+      "last_name": "Finn",
+      "ustsa_num": "437-CCO",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 438,
+    "fields": {
+      "first_name": "Jody",
+      "last_name": "Miller",
+      "ustsa_num": "438-CNY",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 439,
+    "fields": {
+      "first_name": "Dylan",
+      "last_name": "Weglarz",
+      "ustsa_num": "439-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 441,
+    "fields": {
+      "first_name": "Cedar",
+      "last_name": "Mattole",
+      "ustsa_num": "441-CMT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 443,
+    "fields": {
+      "first_name": "Tabi",
+      "last_name": "Freedman",
+      "ustsa_num": "443-CNY",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 444,
+    "fields": {
+      "first_name": "Henry",
+      "last_name": "Barth",
+      "ustsa_num": "444-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 447,
+    "fields": {
+      "first_name": "Norm",
+      "last_name": "Miller",
+      "ustsa_num": "447-CNY",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 452,
+    "fields": {
+      "first_name": "Hardy",
+      "last_name": "Merrill",
+      "ustsa_num": "452-CVT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 456,
+    "fields": {
+      "first_name": "Melinda",
+      "last_name": "Long",
+      "ustsa_num": "456-CCT",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 457,
+    "fields": {
+      "first_name": "Rick",
+      "last_name": "Hirsch",
+      "ustsa_num": "457-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 460,
+    "fields": {
+      "first_name": "Robert",
+      "last_name": "Feinberg",
+      "ustsa_num": "460-CVT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 462,
+    "fields": {
+      "first_name": "Jacob",
+      "last_name": "Carter-Gibb",
+      "ustsa_num": "462-CMT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 466,
+    "fields": {
+      "first_name": "Jake",
+      "last_name": "Badway",
+      "ustsa_num": "466-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 467,
+    "fields": {
+      "first_name": "Sam",
+      "last_name": "Garber",
+      "ustsa_num": "467-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 468,
+    "fields": {
+      "first_name": "Ian",
+      "last_name": "Boisvert",
+      "ustsa_num": "468-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 470,
+    "fields": {
+      "first_name": "Keith",
+      "last_name": "Radick",
+      "ustsa_num": "470-CCT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 471,
+    "fields": {
+      "first_name": "Harper",
+      "last_name": "Boggs",
+      "ustsa_num": "471-CCO",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 473,
+    "fields": {
+      "first_name": "Josh",
+      "last_name": "Mahoney",
+      "ustsa_num": "473-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 475,
+    "fields": {
+      "first_name": "Dan",
+      "last_name": "Kenerson",
+      "ustsa_num": "475-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 478,
+    "fields": {
+      "first_name": "Griffin",
+      "last_name": "Wagner",
+      "ustsa_num": "478-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 479,
+    "fields": {
+      "first_name": "Jason",
+      "last_name": "Naylor",
+      "ustsa_num": "479-CCT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 483,
+    "fields": {
+      "first_name": "Gail",
+      "last_name": "Worthen",
+      "ustsa_num": "483-CME",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 484,
+    "fields": {
+      "first_name": "Aren",
+      "last_name": "Moynihan",
+      "ustsa_num": "484-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 487,
+    "fields": {
+      "first_name": "Nicolas",
+      "last_name": "Belissent",
+      "ustsa_num": "487-CCA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 488,
+    "fields": {
+      "first_name": "Danielle",
+      "last_name": "Huckabone",
+      "ustsa_num": "488-CNH",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 489,
+    "fields": {
+      "first_name": "Stefan",
+      "last_name": "Bagnato",
+      "ustsa_num": "489-CNY",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 490,
+    "fields": {
+      "first_name": "Miles",
+      "last_name": "Fey",
+      "ustsa_num": "490-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 492,
+    "fields": {
+      "first_name": "Michael",
+      "last_name": "Haenn",
+      "ustsa_num": "492-CVT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 497,
+    "fields": {
+      "first_name": "Owen",
+      "last_name": "Wood",
+      "ustsa_num": "497-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 502,
+    "fields": {
+      "first_name": "Steven",
+      "last_name": "Eytel",
+      "ustsa_num": "502-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 507,
+    "fields": {
+      "first_name": "Chris",
+      "last_name": "Rice",
+      "ustsa_num": "507-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 508,
+    "fields": {
+      "first_name": "Erik",
+      "last_name": "Hall",
+      "ustsa_num": "508-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 509,
+    "fields": {
+      "first_name": "Mike",
+      "last_name": "Kozlowski",
+      "ustsa_num": "509-CWA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 511,
+    "fields": {
+      "first_name": "Doug",
+      "last_name": "Munro",
+      "ustsa_num": "511-CNY",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 516,
+    "fields": {
+      "first_name": "Taug",
+      "last_name": "Boschen",
+      "ustsa_num": "516-CWY",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 517,
+    "fields": {
+      "first_name": "Peter",
+      "last_name": "Faletto",
+      "ustsa_num": "517-CID",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 518,
+    "fields": {
+      "first_name": "Jay",
+      "last_name": "Whelan",
+      "ustsa_num": "518-VCA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 522,
+    "fields": {
+      "first_name": "Maria",
+      "last_name": "Nappi",
+      "ustsa_num": "522-CME",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 524,
+    "fields": {
+      "first_name": "Adam",
+      "last_name": "Gridley",
+      "ustsa_num": "524-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 526,
+    "fields": {
+      "first_name": "Karl",
+      "last_name": "Steady",
+      "ustsa_num": "526-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 528,
+    "fields": {
+      "first_name": "Coreen",
+      "last_name": "Carley",
+      "ustsa_num": "528-CNH",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 531,
+    "fields": {
+      "first_name": "Winter",
+      "last_name": "Haberle",
+      "ustsa_num": "531-CVT",
+      "racer_gender": "F",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 534,
+    "fields": {
+      "first_name": "Mark",
+      "last_name": "Barker",
+      "ustsa_num": "534-COH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 537,
+    "fields": {
+      "first_name": "Addison",
+      "last_name": "Dailey",
+      "ustsa_num": "537-CUT",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 538,
+    "fields": {
+      "first_name": "Benjamin",
+      "last_name": "Landry",
+      "ustsa_num": "538-CMA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 541,
+    "fields": {
+      "first_name": "Stephen",
+      "last_name": "McDonald",
+      "ustsa_num": "541-CCA",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 557,
+    "fields": {
+      "first_name": "Walter",
+      "last_name": "Conley",
+      "ustsa_num": "557-CNH",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 558,
+    "fields": {
+      "first_name": "Jord",
+      "last_name": "Gertson",
+      "ustsa_num": "558-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 559,
+    "fields": {
+      "first_name": "Finn",
+      "last_name": "Dresen",
+      "ustsa_num": "559-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 560,
+    "fields": {
+      "first_name": "Charlie",
+      "last_name": "Dresen",
+      "ustsa_num": "560-CCO",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 562,
+    "fields": {
+      "first_name": "Antoine",
+      "last_name": "BELANGER-MORIN",
+      "ustsa_num": "562-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 563,
+    "fields": {
+      "first_name": "Mikael",
+      "last_name": "DANSEREAU  ",
+      "ustsa_num": "563-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 564,
+    "fields": {
+      "first_name": "Rene-Luc",
+      "last_name": "MORIN",
+      "ustsa_num": "564-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 565,
+    "fields": {
+      "first_name": "Jean-Francois",
+      "last_name": "TRUDEL",
+      "ustsa_num": "565-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 566,
+    "fields": {
+      "first_name": "Richard",
+      "last_name": "FARR",
+      "ustsa_num": "566-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racer",
+    "pk": 567,
+    "fields": {
+      "first_name": "Ian",
+      "last_name": "Holdt",
+      "ustsa_num": "888-CAN",
+      "racer_gender": "M",
+      "inj": false,
+      "active": true
+    }
+  },
+  {
+    "model": "ustsa_race_manager.race",
+    "pk": 3,
+    "fields": {
+      "race_type": "SP",
+      "race_name": "West Mt",
+      "race_date": "2016-01-09",
+      "location": "West Mt",
+      "state": "NY",
+      "homoligation": "3",
+      "status": "p",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.race",
+    "pk": 4,
+    "fields": {
+      "race_type": "SP",
+      "race_name": "West Mt 2",
+      "race_date": "2016-01-10",
+      "location": "Queensbury",
+      "state": "NY",
+      "homoligation": "4578",
+      "status": "p",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.assignments",
+    "pk": 1,
+    "fields": {
+      "race": 3,
+      "race_official": 1,
+      "position": "TD"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.assignments",
+    "pk": 3,
+    "fields": {
+      "race": 4,
+      "race_official": 1,
+      "position": "TD"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.assignments",
+    "pk": 4,
+    "fields": {
+      "race": 4,
+      "race_official": 2,
+      "position": "Datamanager"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 1,
+    "fields": {
+      "bib": 0,
+      "position": 1,
+      "racer": 213,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:51.670000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:00:50",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:01:41.670000",
+      "race_points": "0.000",
+      "race_result": "70.023",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 2,
+    "fields": {
+      "bib": 0,
+      "position": 2,
+      "racer": 439,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:57",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:00:50",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:01:51",
+      "race_points": "45.884",
+      "race_result": "115.907",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 3,
+    "fields": {
+      "bib": 0,
+      "position": 3,
+      "racer": 447,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:54",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:01",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:01:55",
+      "race_points": "65.555",
+      "race_result": "135.578",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 4,
+    "fields": {
+      "bib": 0,
+      "position": 4,
+      "racer": 452,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:59",
+      "run_one_gate_penalties": "00:00:02",
+      "run_one_jump_penalties": "00:00:03",
+      "run_two_time": "00:00:54",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:01:58",
+      "race_points": "80.309",
+      "race_result": "150.332",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 5,
+    "fields": {
+      "bib": 0,
+      "position": 5,
+      "racer": 467,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:59",
+      "run_one_gate_penalties": "00:00:01",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:00:58",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:01:58",
+      "race_points": "80.309",
+      "race_result": "150.332",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 6,
+    "fields": {
+      "bib": 0,
+      "position": 6,
+      "racer": 567,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:57",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:00:59",
+      "run_two_gate_penalties": "00:00:03",
+      "run_two_jump_penalties": "00:00:03",
+      "total_time": "00:02:02",
+      "race_points": "99.980",
+      "race_result": "170.003",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 7,
+    "fields": {
+      "bib": 0,
+      "position": 8,
+      "racer": 433,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:57",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:01",
+      "run_two_time": "00:01:01",
+      "run_two_gate_penalties": "00:00:04",
+      "run_two_jump_penalties": "00:00:04",
+      "total_time": "00:02:07",
+      "race_points": "124.570",
+      "race_result": "194.593",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 8,
+    "fields": {
+      "bib": 0,
+      "position": 7,
+      "racer": 425,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:00:57",
+      "run_one_gate_penalties": "00:00:01",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:01",
+      "run_two_gate_penalties": "00:00:04",
+      "run_two_jump_penalties": "00:00:04",
+      "total_time": "00:02:07",
+      "race_points": "124.570",
+      "race_result": "194.593",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 9,
+    "fields": {
+      "bib": 0,
+      "position": 9,
+      "racer": 418,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:06",
+      "run_one_gate_penalties": "00:00:01",
+      "run_one_jump_penalties": "00:00:03",
+      "run_two_time": "00:00:59",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:09",
+      "race_points": "134.405",
+      "race_result": "204.428",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 10,
+    "fields": {
+      "bib": 0,
+      "position": 10,
+      "racer": 478,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:05",
+      "run_one_gate_penalties": "00:00:04",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:00:57",
+      "run_two_gate_penalties": "00:00:01",
+      "run_two_jump_penalties": "00:00:01",
+      "total_time": "00:02:12",
+      "race_points": "149.159",
+      "race_result": "219.182",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 11,
+    "fields": {
+      "bib": 0,
+      "position": 12,
+      "racer": 466,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:10",
+      "run_one_gate_penalties": "00:00:01",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:01:06",
+      "run_two_gate_penalties": "00:00:04",
+      "run_two_jump_penalties": "00:00:04",
+      "total_time": "00:02:29",
+      "race_points": "232.763",
+      "race_result": "302.786",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 12,
+    "fields": {
+      "bib": 0,
+      "position": 11,
+      "racer": 460,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:08",
+      "run_one_gate_penalties": "00:00:02",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:01:06",
+      "run_two_gate_penalties": "00:00:04",
+      "run_two_jump_penalties": "00:00:04",
+      "total_time": "00:02:28",
+      "race_points": "227.845",
+      "race_result": "297.868",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 13,
+    "fields": {
+      "bib": 0,
+      "position": 13,
+      "racer": 468,
+      "race": 3,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:21",
+      "run_one_gate_penalties": "00:00:02",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:01:09",
+      "run_two_gate_penalties": "00:00:03",
+      "run_two_jump_penalties": "00:00:03",
+      "total_time": "00:02:42",
+      "race_points": "296.695",
+      "race_result": "366.718",
+      "applied_penalty": "70.023"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 15,
+    "fields": {
+      "bib": 1,
+      "position": 2,
+      "racer": 447,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.500000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:10.600000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:26.100000",
+      "race_points": "0.342",
+      "race_result": "163.033",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 16,
+    "fields": {
+      "bib": 2,
+      "position": 4,
+      "racer": 490,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.600000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:15.600000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:31.200000",
+      "race_points": "17.808",
+      "race_result": "180.499",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 17,
+    "fields": {
+      "bib": 3,
+      "position": 5,
+      "racer": 418,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.700000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:15.700000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:31.400000",
+      "race_points": "18.493",
+      "race_result": "181.184",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 18,
+    "fields": {
+      "bib": 4,
+      "position": 6,
+      "racer": 567,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.800000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:15.800000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:31.600000",
+      "race_points": "19.178",
+      "race_result": "181.869",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 20,
+    "fields": {
+      "bib": 6,
+      "position": 3,
+      "racer": 439,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.800000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:15.200000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:31",
+      "race_points": "17.123",
+      "race_result": "179.814",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 21,
+    "fields": {
+      "bib": 7,
+      "position": 1,
+      "racer": 213,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:15.800000",
+      "run_one_gate_penalties": "00:00:00",
+      "run_one_jump_penalties": "00:00:00",
+      "run_two_time": "00:01:10.200000",
+      "run_two_gate_penalties": "00:00:00",
+      "run_two_jump_penalties": "00:00:00",
+      "total_time": "00:02:26",
+      "race_points": "0.000",
+      "race_result": "162.691",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerresult",
+    "pk": 22,
+    "fields": {
+      "bib": 8,
+      "position": 7,
+      "racer": 433,
+      "race": 4,
+      "finish_type": "CLR",
+      "run_one_time": "00:01:23.800000",
+      "run_one_gate_penalties": "00:00:04",
+      "run_one_jump_penalties": "00:00:04",
+      "run_two_time": "00:01:23.800000",
+      "run_two_gate_penalties": "00:00:01",
+      "run_two_jump_penalties": "00:00:03",
+      "total_time": "00:02:59.600000",
+      "race_points": "115.068",
+      "race_result": "277.759",
+      "applied_penalty": "162.691"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.publishedpointslist",
+    "pk": 1,
+    "fields": {
+      "list_name": "Trial List",
+      "season_code": 2016,
+      "season_list_number": 1,
+      "start_race_date": "2014-09-01",
+      "end_race_date": "2015-09-01",
+      "valid_from": "2015-09-02",
+      "valid_to": "2016-09-01",
+      "published": true,
+      "current_valid_list": true,
+      "last_update": "2019-06-12T03:20:34.241Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.publishedpointslist",
+    "pk": 2,
+    "fields": {
+      "list_name": "List two",
+      "season_code": 2016,
+      "season_list_number": 1,
+      "start_race_date": "2015-09-01",
+      "end_race_date": "2016-09-01",
+      "valid_from": "2016-09-02",
+      "valid_to": "2017-09-01",
+      "published": true,
+      "current_valid_list": false,
+      "last_update": "2019-06-12T02:49:49.318Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 9,
+    "fields": {
+      "list_id": 1,
+      "racer": 213,
+      "race_type": "CL",
+      "ustsa_points": "74.945",
+      "position": 1,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.097Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 23,
+    "fields": {
+      "list_id": 1,
+      "racer": 447,
+      "race_type": "CL",
+      "ustsa_points": "147.813",
+      "position": 22,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.125Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 26,
+    "fields": {
+      "list_id": 1,
+      "racer": 425,
+      "race_type": "CL",
+      "ustsa_points": "155.181",
+      "position": 25,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.142Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 28,
+    "fields": {
+      "list_id": 1,
+      "racer": 433,
+      "race_type": "CL",
+      "ustsa_points": "192.809",
+      "position": 27,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.115Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 36,
+    "fields": {
+      "list_id": 1,
+      "racer": 452,
+      "race_type": "CL",
+      "ustsa_points": "366.362",
+      "position": 35,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.106Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 40,
+    "fields": {
+      "list_id": 1,
+      "racer": 460,
+      "race_type": "CL",
+      "ustsa_points": "501.735",
+      "position": 39,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.133Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 60,
+    "fields": {
+      "list_id": 1,
+      "racer": 213,
+      "race_type": "GS",
+      "ustsa_points": "189.029",
+      "position": 16,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.100Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 69,
+    "fields": {
+      "list_id": 1,
+      "racer": 433,
+      "race_type": "GS",
+      "ustsa_points": "286.042",
+      "position": 25,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.118Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 76,
+    "fields": {
+      "list_id": 1,
+      "racer": 425,
+      "race_type": "GS",
+      "ustsa_points": "379.670",
+      "position": 32,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.146Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 77,
+    "fields": {
+      "list_id": 1,
+      "racer": 447,
+      "race_type": "GS",
+      "ustsa_points": "397.008",
+      "position": 33,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.128Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 80,
+    "fields": {
+      "list_id": 1,
+      "racer": 452,
+      "race_type": "GS",
+      "ustsa_points": "430.272",
+      "position": 36,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.109Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 85,
+    "fields": {
+      "list_id": 1,
+      "racer": 460,
+      "race_type": "GS",
+      "ustsa_points": "634.832",
+      "position": 41,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.137Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 95,
+    "fields": {
+      "list_id": 1,
+      "racer": 213,
+      "race_type": "SP",
+      "ustsa_points": "52.334",
+      "position": 8,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.103Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 108,
+    "fields": {
+      "list_id": 1,
+      "racer": 447,
+      "race_type": "SP",
+      "ustsa_points": "122.224",
+      "position": 21,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.130Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 109,
+    "fields": {
+      "list_id": 1,
+      "racer": 425,
+      "race_type": "SP",
+      "ustsa_points": "123.928",
+      "position": 22,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.149Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 115,
+    "fields": {
+      "list_id": 1,
+      "racer": 452,
+      "race_type": "SP",
+      "ustsa_points": "153.480",
+      "position": 28,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.112Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 117,
+    "fields": {
+      "list_id": 1,
+      "racer": 433,
+      "race_type": "SP",
+      "ustsa_points": "157.758",
+      "position": 30,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.122Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 123,
+    "fields": {
+      "list_id": 1,
+      "racer": 460,
+      "race_type": "SP",
+      "ustsa_points": "219.230",
+      "position": 36,
+      "penalty": "*",
+      "list_published": "2019-06-09T02:56:32.140Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 124,
+    "fields": {
+      "list_id": 1,
+      "racer": 439,
+      "race_type": "SP",
+      "ustsa_points": "56.310",
+      "position": 42,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.480Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 125,
+    "fields": {
+      "list_id": 1,
+      "racer": 467,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 43,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.484Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 126,
+    "fields": {
+      "list_id": 1,
+      "racer": 567,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 44,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.487Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 127,
+    "fields": {
+      "list_id": 1,
+      "racer": 418,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 45,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.490Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 128,
+    "fields": {
+      "list_id": 1,
+      "racer": 478,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 46,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.493Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 129,
+    "fields": {
+      "list_id": 1,
+      "racer": 466,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 47,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.496Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 130,
+    "fields": {
+      "list_id": 1,
+      "racer": 468,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 48,
+      "penalty": "*",
+      "list_published": "2019-06-09T03:18:58.499Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 131,
+    "fields": {
+      "list_id": 1,
+      "racer": 490,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 26,
+      "penalty": "*",
+      "list_published": "2019-06-12T02:02:58.228Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 133,
+    "fields": {
+      "list_id": 1,
+      "racer": 565,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T03:44:50.886Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 134,
+    "fields": {
+      "list_id": 1,
+      "racer": 565,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T03:44:50.887Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 135,
+    "fields": {
+      "list_id": 1,
+      "racer": 565,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T03:44:50.888Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 136,
+    "fields": {
+      "list_id": 1,
+      "racer": 565,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T03:44:50.888Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 137,
+    "fields": {
+      "list_id": 1,
+      "racer": 562,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:03:01.231Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 138,
+    "fields": {
+      "list_id": 1,
+      "racer": 562,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:03:01.232Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 139,
+    "fields": {
+      "list_id": 1,
+      "racer": 562,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:03:01.233Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 140,
+    "fields": {
+      "list_id": 1,
+      "racer": 562,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:03:01.234Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 141,
+    "fields": {
+      "list_id": 1,
+      "racer": 467,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:04:28.008Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 142,
+    "fields": {
+      "list_id": 1,
+      "racer": 467,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:04:28.010Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 143,
+    "fields": {
+      "list_id": 1,
+      "racer": 467,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:04:28.011Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 144,
+    "fields": {
+      "list_id": 1,
+      "racer": 216,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.011Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 145,
+    "fields": {
+      "list_id": 1,
+      "racer": 216,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.014Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 146,
+    "fields": {
+      "list_id": 1,
+      "racer": 216,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.015Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 147,
+    "fields": {
+      "list_id": 1,
+      "racer": 216,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.016Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 148,
+    "fields": {
+      "list_id": 1,
+      "racer": 307,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.023Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 149,
+    "fields": {
+      "list_id": 1,
+      "racer": 307,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.024Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 150,
+    "fields": {
+      "list_id": 1,
+      "racer": 307,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.025Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 151,
+    "fields": {
+      "list_id": 1,
+      "racer": 307,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.026Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 152,
+    "fields": {
+      "list_id": 1,
+      "racer": 132,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.033Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 153,
+    "fields": {
+      "list_id": 1,
+      "racer": 132,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.034Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 154,
+    "fields": {
+      "list_id": 1,
+      "racer": 132,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.035Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 155,
+    "fields": {
+      "list_id": 1,
+      "racer": 132,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.037Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 156,
+    "fields": {
+      "list_id": 1,
+      "racer": 439,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.043Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 157,
+    "fields": {
+      "list_id": 1,
+      "racer": 439,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.045Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 158,
+    "fields": {
+      "list_id": 1,
+      "racer": 439,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.046Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 159,
+    "fields": {
+      "list_id": 1,
+      "racer": 462,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.052Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 160,
+    "fields": {
+      "list_id": 1,
+      "racer": 462,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.054Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 161,
+    "fields": {
+      "list_id": 1,
+      "racer": 462,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.055Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 162,
+    "fields": {
+      "list_id": 1,
+      "racer": 462,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.056Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 163,
+    "fields": {
+      "list_id": 1,
+      "racer": 559,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.063Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 164,
+    "fields": {
+      "list_id": 1,
+      "racer": 559,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.064Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 165,
+    "fields": {
+      "list_id": 1,
+      "racer": 559,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.065Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 166,
+    "fields": {
+      "list_id": 1,
+      "racer": 559,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.067Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 167,
+    "fields": {
+      "list_id": 1,
+      "racer": 433,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.073Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 168,
+    "fields": {
+      "list_id": 1,
+      "racer": 136,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.080Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 169,
+    "fields": {
+      "list_id": 1,
+      "racer": 136,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.081Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 170,
+    "fields": {
+      "list_id": 1,
+      "racer": 136,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.082Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 171,
+    "fields": {
+      "list_id": 1,
+      "racer": 136,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.084Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 172,
+    "fields": {
+      "list_id": 1,
+      "racer": 447,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.090Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 173,
+    "fields": {
+      "list_id": 1,
+      "racer": 429,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.097Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 174,
+    "fields": {
+      "list_id": 1,
+      "racer": 429,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.098Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 175,
+    "fields": {
+      "list_id": 1,
+      "racer": 429,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.100Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 176,
+    "fields": {
+      "list_id": 1,
+      "racer": 429,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.101Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 177,
+    "fields": {
+      "list_id": 1,
+      "racer": 314,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.108Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 178,
+    "fields": {
+      "list_id": 1,
+      "racer": 314,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.109Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 179,
+    "fields": {
+      "list_id": 1,
+      "racer": 314,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.110Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 180,
+    "fields": {
+      "list_id": 1,
+      "racer": 314,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.111Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 181,
+    "fields": {
+      "list_id": 1,
+      "racer": 564,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.119Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 182,
+    "fields": {
+      "list_id": 1,
+      "racer": 564,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.120Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 183,
+    "fields": {
+      "list_id": 1,
+      "racer": 564,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.121Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 184,
+    "fields": {
+      "list_id": 1,
+      "racer": 564,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.122Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 185,
+    "fields": {
+      "list_id": 1,
+      "racer": 213,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.129Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 186,
+    "fields": {
+      "list_id": 1,
+      "racer": 402,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.135Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 187,
+    "fields": {
+      "list_id": 1,
+      "racer": 402,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.136Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 188,
+    "fields": {
+      "list_id": 1,
+      "racer": 402,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.137Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 189,
+    "fields": {
+      "list_id": 1,
+      "racer": 402,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.138Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 190,
+    "fields": {
+      "list_id": 1,
+      "racer": 563,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.145Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 191,
+    "fields": {
+      "list_id": 1,
+      "racer": 563,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.146Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 192,
+    "fields": {
+      "list_id": 1,
+      "racer": 563,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.148Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 193,
+    "fields": {
+      "list_id": 1,
+      "racer": 563,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.149Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 194,
+    "fields": {
+      "list_id": 1,
+      "racer": 490,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.155Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 195,
+    "fields": {
+      "list_id": 1,
+      "racer": 490,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.157Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 196,
+    "fields": {
+      "list_id": 1,
+      "racer": 490,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.158Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 197,
+    "fields": {
+      "list_id": 1,
+      "racer": 425,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.166Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 198,
+    "fields": {
+      "list_id": 1,
+      "racer": 484,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.173Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 199,
+    "fields": {
+      "list_id": 1,
+      "racer": 484,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.175Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 200,
+    "fields": {
+      "list_id": 1,
+      "racer": 484,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.176Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 201,
+    "fields": {
+      "list_id": 1,
+      "racer": 484,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.177Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 202,
+    "fields": {
+      "list_id": 1,
+      "racer": 417,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.185Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 203,
+    "fields": {
+      "list_id": 1,
+      "racer": 417,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.186Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 204,
+    "fields": {
+      "list_id": 1,
+      "racer": 417,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.188Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 205,
+    "fields": {
+      "list_id": 1,
+      "racer": 417,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.189Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 206,
+    "fields": {
+      "list_id": 1,
+      "racer": 479,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.196Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 207,
+    "fields": {
+      "list_id": 1,
+      "racer": 479,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.197Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 208,
+    "fields": {
+      "list_id": 1,
+      "racer": 479,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.199Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 209,
+    "fields": {
+      "list_id": 1,
+      "racer": 479,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.200Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 210,
+    "fields": {
+      "list_id": 1,
+      "racer": 470,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.207Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 211,
+    "fields": {
+      "list_id": 1,
+      "racer": 470,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.208Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 212,
+    "fields": {
+      "list_id": 1,
+      "racer": 470,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.210Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 213,
+    "fields": {
+      "list_id": 1,
+      "racer": 470,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.211Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 214,
+    "fields": {
+      "list_id": 1,
+      "racer": 114,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.223Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 215,
+    "fields": {
+      "list_id": 1,
+      "racer": 114,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.224Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 216,
+    "fields": {
+      "list_id": 1,
+      "racer": 114,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.226Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 217,
+    "fields": {
+      "list_id": 1,
+      "racer": 114,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.227Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 218,
+    "fields": {
+      "list_id": 1,
+      "racer": 444,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.235Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 219,
+    "fields": {
+      "list_id": 1,
+      "racer": 444,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.236Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 220,
+    "fields": {
+      "list_id": 1,
+      "racer": 444,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.237Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 221,
+    "fields": {
+      "list_id": 1,
+      "racer": 444,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.238Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 222,
+    "fields": {
+      "list_id": 1,
+      "racer": 441,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.246Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 223,
+    "fields": {
+      "list_id": 1,
+      "racer": 441,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.247Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 224,
+    "fields": {
+      "list_id": 1,
+      "racer": 441,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.248Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 225,
+    "fields": {
+      "list_id": 1,
+      "racer": 441,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.249Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 226,
+    "fields": {
+      "list_id": 1,
+      "racer": 415,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.257Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 227,
+    "fields": {
+      "list_id": 1,
+      "racer": 415,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.258Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 228,
+    "fields": {
+      "list_id": 1,
+      "racer": 415,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.260Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 229,
+    "fields": {
+      "list_id": 1,
+      "racer": 415,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.261Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 230,
+    "fields": {
+      "list_id": 1,
+      "racer": 489,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.269Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 231,
+    "fields": {
+      "list_id": 1,
+      "racer": 489,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.270Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 232,
+    "fields": {
+      "list_id": 1,
+      "racer": 489,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.272Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 233,
+    "fields": {
+      "list_id": 1,
+      "racer": 489,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.273Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 234,
+    "fields": {
+      "list_id": 1,
+      "racer": 426,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.280Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 235,
+    "fields": {
+      "list_id": 1,
+      "racer": 426,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.281Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 236,
+    "fields": {
+      "list_id": 1,
+      "racer": 426,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.282Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 237,
+    "fields": {
+      "list_id": 1,
+      "racer": 426,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.284Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 238,
+    "fields": {
+      "list_id": 1,
+      "racer": 497,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.291Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 239,
+    "fields": {
+      "list_id": 1,
+      "racer": 497,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.292Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 240,
+    "fields": {
+      "list_id": 1,
+      "racer": 497,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.294Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 241,
+    "fields": {
+      "list_id": 1,
+      "racer": 497,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.295Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 242,
+    "fields": {
+      "list_id": 1,
+      "racer": 468,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.302Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 243,
+    "fields": {
+      "list_id": 1,
+      "racer": 468,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.304Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 244,
+    "fields": {
+      "list_id": 1,
+      "racer": 468,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.305Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 245,
+    "fields": {
+      "list_id": 1,
+      "racer": 511,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.312Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 246,
+    "fields": {
+      "list_id": 1,
+      "racer": 511,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.314Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 247,
+    "fields": {
+      "list_id": 1,
+      "racer": 511,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.315Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 248,
+    "fields": {
+      "list_id": 1,
+      "racer": 511,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.316Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 249,
+    "fields": {
+      "list_id": 1,
+      "racer": 475,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.323Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 250,
+    "fields": {
+      "list_id": 1,
+      "racer": 475,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.325Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 251,
+    "fields": {
+      "list_id": 1,
+      "racer": 475,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.326Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 252,
+    "fields": {
+      "list_id": 1,
+      "racer": 475,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.327Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 253,
+    "fields": {
+      "list_id": 1,
+      "racer": 452,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.334Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 254,
+    "fields": {
+      "list_id": 1,
+      "racer": 557,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.342Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 255,
+    "fields": {
+      "list_id": 1,
+      "racer": 557,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.343Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 256,
+    "fields": {
+      "list_id": 1,
+      "racer": 557,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.344Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 257,
+    "fields": {
+      "list_id": 1,
+      "racer": 557,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.346Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 258,
+    "fields": {
+      "list_id": 1,
+      "racer": 516,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.353Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 259,
+    "fields": {
+      "list_id": 1,
+      "racer": 516,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.354Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 260,
+    "fields": {
+      "list_id": 1,
+      "racer": 516,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.355Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 261,
+    "fields": {
+      "list_id": 1,
+      "racer": 516,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.357Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 262,
+    "fields": {
+      "list_id": 1,
+      "racer": 566,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.364Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 263,
+    "fields": {
+      "list_id": 1,
+      "racer": 566,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.365Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 264,
+    "fields": {
+      "list_id": 1,
+      "racer": 566,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.366Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 265,
+    "fields": {
+      "list_id": 1,
+      "racer": 566,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.368Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 266,
+    "fields": {
+      "list_id": 1,
+      "racer": 508,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.375Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 267,
+    "fields": {
+      "list_id": 1,
+      "racer": 508,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.376Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 268,
+    "fields": {
+      "list_id": 1,
+      "racer": 508,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.378Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 269,
+    "fields": {
+      "list_id": 1,
+      "racer": 508,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.379Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 270,
+    "fields": {
+      "list_id": 1,
+      "racer": 478,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.386Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 271,
+    "fields": {
+      "list_id": 1,
+      "racer": 478,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.388Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 272,
+    "fields": {
+      "list_id": 1,
+      "racer": 478,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.389Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 273,
+    "fields": {
+      "list_id": 1,
+      "racer": 418,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.396Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 274,
+    "fields": {
+      "list_id": 1,
+      "racer": 418,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.398Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 275,
+    "fields": {
+      "list_id": 1,
+      "racer": 418,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.399Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 276,
+    "fields": {
+      "list_id": 1,
+      "racer": 538,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.406Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 277,
+    "fields": {
+      "list_id": 1,
+      "racer": 538,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.408Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 278,
+    "fields": {
+      "list_id": 1,
+      "racer": 538,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.409Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 279,
+    "fields": {
+      "list_id": 1,
+      "racer": 538,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.410Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 280,
+    "fields": {
+      "list_id": 1,
+      "racer": 403,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.418Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 281,
+    "fields": {
+      "list_id": 1,
+      "racer": 403,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.419Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 282,
+    "fields": {
+      "list_id": 1,
+      "racer": 403,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.420Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 283,
+    "fields": {
+      "list_id": 1,
+      "racer": 403,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.421Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 284,
+    "fields": {
+      "list_id": 1,
+      "racer": 460,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.431Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 285,
+    "fields": {
+      "list_id": 1,
+      "racer": 517,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.448Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 286,
+    "fields": {
+      "list_id": 1,
+      "racer": 517,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.451Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 287,
+    "fields": {
+      "list_id": 1,
+      "racer": 517,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.454Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 288,
+    "fields": {
+      "list_id": 1,
+      "racer": 517,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.456Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 289,
+    "fields": {
+      "list_id": 1,
+      "racer": 466,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.473Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 290,
+    "fields": {
+      "list_id": 1,
+      "racer": 466,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.476Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 291,
+    "fields": {
+      "list_id": 1,
+      "racer": 466,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.479Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 292,
+    "fields": {
+      "list_id": 1,
+      "racer": 560,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.496Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 293,
+    "fields": {
+      "list_id": 1,
+      "racer": 560,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.498Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 294,
+    "fields": {
+      "list_id": 1,
+      "racer": 560,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.501Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 295,
+    "fields": {
+      "list_id": 1,
+      "racer": 560,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.504Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 296,
+    "fields": {
+      "list_id": 1,
+      "racer": 534,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.516Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 297,
+    "fields": {
+      "list_id": 1,
+      "racer": 534,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.519Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 298,
+    "fields": {
+      "list_id": 1,
+      "racer": 534,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.520Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 299,
+    "fields": {
+      "list_id": 1,
+      "racer": 534,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.522Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 300,
+    "fields": {
+      "list_id": 1,
+      "racer": 487,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.531Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 301,
+    "fields": {
+      "list_id": 1,
+      "racer": 487,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.532Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 302,
+    "fields": {
+      "list_id": 1,
+      "racer": 487,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.533Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 303,
+    "fields": {
+      "list_id": 1,
+      "racer": 487,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.534Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 304,
+    "fields": {
+      "list_id": 1,
+      "racer": 537,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.546Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 305,
+    "fields": {
+      "list_id": 1,
+      "racer": 537,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.549Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 306,
+    "fields": {
+      "list_id": 1,
+      "racer": 537,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.551Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 307,
+    "fields": {
+      "list_id": 1,
+      "racer": 537,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.553Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 308,
+    "fields": {
+      "list_id": 1,
+      "racer": 408,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.564Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 309,
+    "fields": {
+      "list_id": 1,
+      "racer": 408,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.565Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 310,
+    "fields": {
+      "list_id": 1,
+      "racer": 408,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.566Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 311,
+    "fields": {
+      "list_id": 1,
+      "racer": 408,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.568Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 312,
+    "fields": {
+      "list_id": 1,
+      "racer": 502,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.578Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 313,
+    "fields": {
+      "list_id": 1,
+      "racer": 502,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.579Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 314,
+    "fields": {
+      "list_id": 1,
+      "racer": 502,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.581Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 315,
+    "fields": {
+      "list_id": 1,
+      "racer": 502,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.582Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 316,
+    "fields": {
+      "list_id": 1,
+      "racer": 558,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.592Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 317,
+    "fields": {
+      "list_id": 1,
+      "racer": 558,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.594Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 318,
+    "fields": {
+      "list_id": 1,
+      "racer": 558,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.596Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 319,
+    "fields": {
+      "list_id": 1,
+      "racer": 558,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.597Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 320,
+    "fields": {
+      "list_id": 1,
+      "racer": 524,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.608Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 321,
+    "fields": {
+      "list_id": 1,
+      "racer": 524,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.609Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 322,
+    "fields": {
+      "list_id": 1,
+      "racer": 524,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.610Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 323,
+    "fields": {
+      "list_id": 1,
+      "racer": 524,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.611Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 324,
+    "fields": {
+      "list_id": 1,
+      "racer": 492,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.623Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 325,
+    "fields": {
+      "list_id": 1,
+      "racer": 492,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.625Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 326,
+    "fields": {
+      "list_id": 1,
+      "racer": 492,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.626Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 327,
+    "fields": {
+      "list_id": 1,
+      "racer": 492,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.627Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 328,
+    "fields": {
+      "list_id": 1,
+      "racer": 457,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.638Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 329,
+    "fields": {
+      "list_id": 1,
+      "racer": 457,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.639Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 330,
+    "fields": {
+      "list_id": 1,
+      "racer": 457,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.640Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 331,
+    "fields": {
+      "list_id": 1,
+      "racer": 457,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.641Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 332,
+    "fields": {
+      "list_id": 1,
+      "racer": 509,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.651Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 333,
+    "fields": {
+      "list_id": 1,
+      "racer": 509,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.652Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 334,
+    "fields": {
+      "list_id": 1,
+      "racer": 509,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.653Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 335,
+    "fields": {
+      "list_id": 1,
+      "racer": 509,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.654Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 336,
+    "fields": {
+      "list_id": 1,
+      "racer": 473,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.665Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 337,
+    "fields": {
+      "list_id": 1,
+      "racer": 473,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.666Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 338,
+    "fields": {
+      "list_id": 1,
+      "racer": 473,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.667Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 339,
+    "fields": {
+      "list_id": 1,
+      "racer": 473,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.668Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 340,
+    "fields": {
+      "list_id": 1,
+      "racer": 541,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.677Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 341,
+    "fields": {
+      "list_id": 1,
+      "racer": 541,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.679Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 342,
+    "fields": {
+      "list_id": 1,
+      "racer": 541,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.680Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 343,
+    "fields": {
+      "list_id": 1,
+      "racer": 541,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.681Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 344,
+    "fields": {
+      "list_id": 1,
+      "racer": 308,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.694Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 345,
+    "fields": {
+      "list_id": 1,
+      "racer": 308,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.695Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 346,
+    "fields": {
+      "list_id": 1,
+      "racer": 308,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.696Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 347,
+    "fields": {
+      "list_id": 1,
+      "racer": 308,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.698Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 348,
+    "fields": {
+      "list_id": 1,
+      "racer": 507,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.707Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 349,
+    "fields": {
+      "list_id": 1,
+      "racer": 507,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.709Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 350,
+    "fields": {
+      "list_id": 1,
+      "racer": 507,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.710Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 351,
+    "fields": {
+      "list_id": 1,
+      "racer": 507,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.711Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 352,
+    "fields": {
+      "list_id": 1,
+      "racer": 526,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.722Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 353,
+    "fields": {
+      "list_id": 1,
+      "racer": 526,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.724Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 354,
+    "fields": {
+      "list_id": 1,
+      "racer": 526,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.725Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 355,
+    "fields": {
+      "list_id": 1,
+      "racer": 526,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.727Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 356,
+    "fields": {
+      "list_id": 1,
+      "racer": 518,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.735Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 357,
+    "fields": {
+      "list_id": 1,
+      "racer": 518,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.738Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 358,
+    "fields": {
+      "list_id": 1,
+      "racer": 518,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.739Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 359,
+    "fields": {
+      "list_id": 1,
+      "racer": 518,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.740Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 360,
+    "fields": {
+      "list_id": 1,
+      "racer": 405,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.751Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 361,
+    "fields": {
+      "list_id": 1,
+      "racer": 405,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.752Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 362,
+    "fields": {
+      "list_id": 1,
+      "racer": 405,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.753Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 363,
+    "fields": {
+      "list_id": 1,
+      "racer": 405,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.755Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 364,
+    "fields": {
+      "list_id": 1,
+      "racer": 427,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.767Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 365,
+    "fields": {
+      "list_id": 1,
+      "racer": 427,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.769Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 366,
+    "fields": {
+      "list_id": 1,
+      "racer": 427,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.770Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 367,
+    "fields": {
+      "list_id": 1,
+      "racer": 427,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.771Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 368,
+    "fields": {
+      "list_id": 1,
+      "racer": 437,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.780Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 369,
+    "fields": {
+      "list_id": 1,
+      "racer": 437,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.781Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 370,
+    "fields": {
+      "list_id": 1,
+      "racer": 437,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.782Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 371,
+    "fields": {
+      "list_id": 1,
+      "racer": 437,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.783Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 372,
+    "fields": {
+      "list_id": 1,
+      "racer": 432,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.793Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 373,
+    "fields": {
+      "list_id": 1,
+      "racer": 432,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.795Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 374,
+    "fields": {
+      "list_id": 1,
+      "racer": 432,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.796Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 375,
+    "fields": {
+      "list_id": 1,
+      "racer": 432,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.797Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 376,
+    "fields": {
+      "list_id": 1,
+      "racer": 315,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.808Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 377,
+    "fields": {
+      "list_id": 1,
+      "racer": 315,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.809Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 378,
+    "fields": {
+      "list_id": 1,
+      "racer": 315,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.810Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 379,
+    "fields": {
+      "list_id": 1,
+      "racer": 315,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.811Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 380,
+    "fields": {
+      "list_id": 1,
+      "racer": 522,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.819Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 381,
+    "fields": {
+      "list_id": 1,
+      "racer": 522,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.820Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 382,
+    "fields": {
+      "list_id": 1,
+      "racer": 522,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.821Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 383,
+    "fields": {
+      "list_id": 1,
+      "racer": 522,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.823Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 384,
+    "fields": {
+      "list_id": 1,
+      "racer": 528,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.830Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 385,
+    "fields": {
+      "list_id": 1,
+      "racer": 528,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.832Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 386,
+    "fields": {
+      "list_id": 1,
+      "racer": 528,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.833Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 387,
+    "fields": {
+      "list_id": 1,
+      "racer": 528,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.834Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 388,
+    "fields": {
+      "list_id": 1,
+      "racer": 456,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.842Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 389,
+    "fields": {
+      "list_id": 1,
+      "racer": 456,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.843Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 390,
+    "fields": {
+      "list_id": 1,
+      "racer": 456,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.844Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 391,
+    "fields": {
+      "list_id": 1,
+      "racer": 456,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.845Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 392,
+    "fields": {
+      "list_id": 1,
+      "racer": 488,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.853Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 393,
+    "fields": {
+      "list_id": 1,
+      "racer": 488,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.854Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 394,
+    "fields": {
+      "list_id": 1,
+      "racer": 488,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.855Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 395,
+    "fields": {
+      "list_id": 1,
+      "racer": 488,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.856Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 396,
+    "fields": {
+      "list_id": 1,
+      "racer": 419,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.863Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 397,
+    "fields": {
+      "list_id": 1,
+      "racer": 419,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.865Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 398,
+    "fields": {
+      "list_id": 1,
+      "racer": 419,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.866Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 399,
+    "fields": {
+      "list_id": 1,
+      "racer": 419,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.867Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 400,
+    "fields": {
+      "list_id": 1,
+      "racer": 471,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.874Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 401,
+    "fields": {
+      "list_id": 1,
+      "racer": 471,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.876Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 402,
+    "fields": {
+      "list_id": 1,
+      "racer": 471,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.877Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 403,
+    "fields": {
+      "list_id": 1,
+      "racer": 471,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.878Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 404,
+    "fields": {
+      "list_id": 1,
+      "racer": 483,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.886Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 405,
+    "fields": {
+      "list_id": 1,
+      "racer": 483,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.887Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 406,
+    "fields": {
+      "list_id": 1,
+      "racer": 483,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.888Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 407,
+    "fields": {
+      "list_id": 1,
+      "racer": 483,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.889Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 408,
+    "fields": {
+      "list_id": 1,
+      "racer": 443,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.897Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 409,
+    "fields": {
+      "list_id": 1,
+      "racer": 443,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.898Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 410,
+    "fields": {
+      "list_id": 1,
+      "racer": 443,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.899Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 411,
+    "fields": {
+      "list_id": 1,
+      "racer": 443,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.900Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 412,
+    "fields": {
+      "list_id": 1,
+      "racer": 531,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.908Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 413,
+    "fields": {
+      "list_id": 1,
+      "racer": 531,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.909Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 414,
+    "fields": {
+      "list_id": 1,
+      "racer": 531,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.910Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 415,
+    "fields": {
+      "list_id": 1,
+      "racer": 531,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.911Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 416,
+    "fields": {
+      "list_id": 1,
+      "racer": 438,
+      "race_type": "SP",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.919Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 417,
+    "fields": {
+      "list_id": 1,
+      "racer": 438,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.920Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 418,
+    "fields": {
+      "list_id": 1,
+      "racer": 438,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.921Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 419,
+    "fields": {
+      "list_id": 1,
+      "racer": 438,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.923Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 420,
+    "fields": {
+      "list_id": 1,
+      "racer": 567,
+      "race_type": "CL",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.931Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 421,
+    "fields": {
+      "list_id": 1,
+      "racer": 567,
+      "race_type": "PS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.932Z"
+    }
+  },
+  {
+    "model": "ustsa_race_manager.racerpoints",
+    "pk": 422,
+    "fields": {
+      "list_id": 1,
+      "racer": 567,
+      "race_type": "GS",
+      "ustsa_points": "500.000",
+      "position": 99,
+      "penalty": "*",
+      "list_published": "2019-06-12T04:05:05.933Z"
+    }
+  }
+]
